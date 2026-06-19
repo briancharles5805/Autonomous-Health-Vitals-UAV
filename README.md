@@ -35,8 +35,6 @@ Instead of relying on simple averages, the script implements an advanced Remote 
 * `process_vitals_pipeline()`: Executes the core mathematical matrix arrays, detrending steps, and spectral density calculations.
 * `trigger_emergency_alert()`: Packages incident frames, GPS strings, and health status matrices into multi-part form payloads for instantaneous IoT routing.
 
-## 📁 Project Documentation
-The complete engineering documentation and presentation materials are structured in the [Documentation](./Documentation) directory:
 
 ## 📁 Project Documentation
 The complete engineering documentation and presentation materials are structured in the [Documentation](./Documentation) directory:
