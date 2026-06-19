@@ -36,5 +36,5 @@ Instead of relying on simple averages, the script implements an advanced Remote 
 ## 📁 Project Documentation
 The complete engineering documentation and presentation materials are structured in the [Documentation](./Documentation) directory:
 
-* 📄 [Final Project Thesis](./Documentation/Project_Thesis.pdf) — A comprehensive, 68-page dissertation detailing the mathematical core (rPPG signal analysis), multi-threaded pipeline design, and experimental validation.
-* 📊 [Project Defense Slides](./Documentation/Seminar_Slides.pdf) — Technical presentation slides outlining the core hardware architecture, Edge-AI inference loops, and real-time telemetry systems.
+* 📄 [Project Thesis](./Documentation/Project_Thesis.pdf) — A comprehensive, 68-page dissertation detailing the mathematical core (rPPG signal analysis), multi-threaded pipeline design, and experimental validation.
+* 📊 [Seminar Slides](./Documentation/Seminar_Slides.pdf) — Technical presentation slides outlining the core hardware architecture, Edge-AI inference loops, and real-time telemetry systems.
