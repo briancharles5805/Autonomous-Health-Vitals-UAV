@@ -9,7 +9,7 @@ Click the thumbnail below to watch the complete technical presentation and syste
 The primary execution script running on the edge companion computer is accessible directly through the repository link below:
 
 * 🚀 **[Open final3.py Source Code](./final3.py)** — The complete multi-threaded Python implementation handling real-time computer vision inference (YOLOv8), rPPG digital signal processing, MAVLink flight controller telemetry streams, and low-latency WebSocket broadcasting.
-* 
+  
 ### 🏗️ Threading & Asynchronous Pipeline Model
 To prevent video frame drops and ensure real-time execution on resource-constrained edge hardware (Raspberry Pi 5), the system decouples heavy computational workloads into independent concurrent execution streams:
 
