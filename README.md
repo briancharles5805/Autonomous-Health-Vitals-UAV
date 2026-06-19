@@ -32,3 +32,9 @@ Instead of relying on simple averages, the script implements an advanced Remote 
 * `register_client()` & `broadcast_telemetry()`: Manages safe client registries and handles simultaneous data blasting to connected Android application dashboards.
 * `process_vitals_pipeline()`: Executes the core mathematical matrix arrays, detrending steps, and spectral density calculations.
 * `trigger_emergency_alert()`: Packages incident frames, GPS strings, and health status matrices into multi-part form payloads for instantaneous IoT routing.
+
+## 📁 Project Documentation
+The complete engineering documentation and presentation materials are structured in the [Documentation](./Documentation) directory:
+
+* 📄 [Final Project Thesis](./Documentation/BTech_Project_Thesis.pdf) — A comprehensive, 68-page dissertation detailing the mathematical core (rPPG signal analysis), multi-threaded pipeline design, and experimental validation.
+* 📊 [Project Defense Slides](./Documentation/Project_Defense_Slides.pdf) — Technical presentation slides outlining the core hardware architecture, Edge-AI inference loops, and real-time telemetry systems.
