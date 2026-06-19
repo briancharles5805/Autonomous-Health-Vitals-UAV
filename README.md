@@ -39,5 +39,5 @@ The complete engineering documentation and presentation materials are structured
 ## 📁 Project Documentation
 The complete engineering documentation and presentation materials are structured in the [Documentation](./Documentation) directory:
 
-* 📄 [Project Thesis](https://github.com/briancharles5805/Autonomous-Health-Vitals-UAV/blob/main/Documentation/Project_Thesis.pdf) — A comprehensive, 68-page dissertation detailing the mathematical core (rPPG signal analysis), multi-threaded pipeline design, and experimental validation.
+* 📄 [Project Thesis](https://github.com/briancharles5805/Autonomous-Health-Vitals-UAV/blob/43f0e834d87d7bccf0478222a053a7c3ec309ec7/Documentation/Project%20Thesis.pdf) — A comprehensive, 68-page dissertation detailing the mathematical core (rPPG signal analysis), multi-threaded pipeline design, and experimental validation.
 * 📊 [Seminar Slides](https://github.com/briancharles5805/Autonomous-Health-Vitals-UAV/blob/main/Documentation/Seminar_Slides.pdf) — Technical presentation slides outlining the core hardware architecture, Edge-AI inference loops, and real-time telemetry systems.
