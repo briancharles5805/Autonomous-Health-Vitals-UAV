@@ -1,0 +1,8 @@
+opencv-python
+numpy
+requests
+ultralytics
+pymavlink
+mediapipe
+scipy
+websockets
