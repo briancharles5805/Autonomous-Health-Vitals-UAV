@@ -1,16 +1,16 @@
 # Autonomous-Health-Vitals-UAV
 Autonomous AI Assisted UAV system utilizing YOLOv8-Pose for threat tracking and non-contact rPPG and facial landmark analysis for real-time health vitals monitoring.
-## 📺 Project Presentation Video
+## Project Presentation Video
 Click the thumbnail below to watch the complete technical presentation and system demonstration:
 
 [![Watch the Demo Video](./Media/video_thumbnail.png)](https://youtu.be/MQbyDP5LecA)
-## 💻 Core Software Implementation
+##  Core Software Implementation
 
 The primary execution script running on the edge companion computer is accessible directly through the repository link below:
 
-* 🚀 **[Open final3.py Source Code](./final3.py)** — The complete multi-threaded Python implementation handling real-time computer vision inference (YOLOv8), rPPG digital signal processing, MAVLink flight controller telemetry streams, and low-latency WebSocket broadcasting.
+*  **[Open final3.py Source Code](./final3.py)** — The complete multi-threaded Python implementation handling real-time computer vision inference (YOLOv8), rPPG digital signal processing, MAVLink flight controller telemetry streams, and low-latency WebSocket broadcasting.
   
-### 🏗️ Threading & Asynchronous Pipeline Model
+###  Threading & Asynchronous Pipeline Model
 To prevent video frame drops and ensure real-time execution on resource-constrained edge hardware (Raspberry Pi 5), the system decouples heavy computational workloads into independent concurrent execution streams:
 
 * **Thread 1: Video Capture & AI Inference Loop** — Captures high-definition matrices from the PiCamera2, runs the YOLOv8-Pose tracking model, extracts regions-of-interest (ROIs) from facial landmarks using MediaPipe, and drops processed matrices into thread-safe queues.
@@ -19,7 +19,7 @@ To prevent video frame drops and ensure real-time execution on resource-constrai
 
 ---
 
-### 🧮 Mathematical & Signal Processing Engine
+###  Mathematical & Signal Processing Engine
 Instead of relying on simple averages, the script implements an advanced Remote Photoplethysmography (rPPG) pipeline to extract precise blood-volume pulse (BVP) variations from microscopic facial skin color fluctuations:
 
 1. **ROI Isolation:** MediaPipe tracks facial landmark matrices dynamically to isolate the forehead and cheek skin regions, ignoring background noise.
@@ -29,14 +29,14 @@ Instead of relying on simple averages, the script implements an advanced Remote 
 
 ---
 
-### 🚀 Key Code Modules Included
+###  Key Code Modules Included
 * `start_async_server()`: Initializes a production-grade asynchronous gateway on local network port `8765` for client connections.
 * `register_client()` & `broadcast_telemetry()`: Manages safe client registries and handles simultaneous data blasting to connected Android application dashboards.
 * `process_vitals_pipeline()`: Executes the core mathematical matrix arrays, detrending steps, and spectral density calculations.
 * `trigger_emergency_alert()`: Packages incident frames, GPS strings, and health status matrices into multi-part form payloads for instantaneous IoT routing.
 
 
-## 📁 Project Documentation
+##  Project Documentation
 The complete engineering documentation and presentation materials are structured in the [Documentation](./Documentation) directory:
 
 * 📄 [Project Thesis](https://github.com/briancharles5805/Autonomous-Health-Vitals-UAV/blob/43f0e834d87d7bccf0478222a053a7c3ec309ec7/Documentation/Project%20Thesis.pdf) — A comprehensive, 68-page dissertation detailing the mathematical core (rPPG signal analysis), multi-threaded pipeline design, and experimental validation.
